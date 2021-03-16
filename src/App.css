@@ -1,10 +1,115 @@
 .App {
   text-align: center;
+  margin:1%;
+
+}
+
+.clear{
+  height:9vh;
+  font-size: large;
+  width:10vw;
+  padding: 0.5vh;
+  background-color: darkslateblue;
+  color:white;
+  border-radius: 10px;
+}
+
+#clear:hover{
+  background-color:cadetblue;
+  color:black;
+  
+}
+.component{
+position: relative;
+top: 5vh;
+width: 50%;
+}
+
+
+
+#searchbox{
+  height:7vh;
+  font-size: large;
+  width:70vw;
+  padding: 0.5vh;
+}
+.currenttab{
+  border-bottom:  5px solid rgb(11, 43, 225);
+  /* border-radius: 10px; */
+  height:2.75vh
+
+  
+}
+#AllPostComponent{
+  padding: 0vw 4vw;
+}
+
+.PostTitle{
+  font-size: x-large;
+  text-align: left;
+  border-bottom: 2.5px solid blueviolet;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#newPostTitle{
+  height: 8vh;
+    width: 81vw;
+    font-size: large;
+    border-radius: 15px;
+}
+#newPostBody{
+  height:40vh;
+  width:81vw;
+  font-size: medium;
+  margin: 2vh 0vw;
+  border-radius: 15px;
+  padding: 4px;
+  
+
+}
+
+#NewPostComponent{
+  height:60vh;
+  Width:84vw;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  margin: 3vh 2vw;
+  padding: 5.5vh 5vw;
+}
+
+#PostComponent{
+  height:20vh;
+  Width:84vw;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px black;
+  margin: 3vh 0vw;
+  padding: 1vh 3vw;
+}
+.PostBody{
+  white-space: pre-wrap;
+text-align: left;
+}
+
+
+
+
+.componentScreen{
+  margin: 2vh 0vw;
+}
+
+#searchbox:focus{
+  border:rgb(57, 127, 220);
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+#SearchComponent{
+  box-shadow: 5px 10px 6px grey;
+  height:17.5vh;
+  border-radius: 10px;
+  padding:2.5vh 0vh 0vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
